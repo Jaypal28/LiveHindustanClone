@@ -1,0 +1,10 @@
+## Code Explanation (Approx. 230 words)
+
+- **Project Structure:** Pages router rakha gaya hai kyunki prompt ne `_app.js` aur dynamic `[slug].js` demand kiya. `pages/` mein index, article route, aur API endpoints baithe hain. Shared UI pieces `components/` mein, data helpers `lib/` mein, mock content `data/` mein, aur static assets `public/` mein rakhe gaye.
+- **Global Shell:** `pages/_app.js` sab pages ko `components/Layout` se wrap karta hai jiske andar semantic `<header>`, `<main>`, `<footer>` sections, responsive container, aur consistent padding defined hai. `styles/globals.css` Tailwind directives inject karta hai aur custom focus/line clamp utilities add karta hai.
+- **Data Layer:** `lib/articles.js` simple filesystem helper hai jo `data/articles.json` par read operations perform karta hai. `readArticles()` list return karta hai jabki `getArticleBySlug()` slug-based lookup karta hai. Yehi helpers SSG (index, article pages) aur API route dono mein reuse hote hain.
+- **Components:** `Header` + `Footer` basic nav/meta sections handle karte hain. `NewsCard` reusable card banata hai jo `variant` prop ke basis par hero ya list style render karta hai, Next Image fallback logic deta hai, aur summary ko 120 chars tak trim karta hai. Focus ring aur aria labels ensure karte hain ki cards keyboard friendly rahein.
+- **Pages:** `pages/index.js` `getStaticProps` ke through articles load karta hai, hero + grid UI paint karta hai, aur client-side retry button se `/api/articles` fetch karke loading/error states dikha sakta hai. `pages/articles/[slug].js` slug-based SSG path banata hai, detail page par meta info, responsive image, JSON-LD schema aur "Back to Home" link deta hai.
+- **API:** `/api/articles` same JSON data ko expose karta hai jisse client retry button stateful UX de sakta hai.
+- **Critical Logic Files:** `pages/index.js` (SSG + UI), `pages/articles/[slug].js` (paths + structured data), `components/NewsCard.js` (image fallback + layout), `lib/articles.js` (data source of truth).
+

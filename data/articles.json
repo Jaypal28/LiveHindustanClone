@@ -1,0 +1,124 @@
+[
+  {
+    "id": 1,
+    "slug": "delhi-air-quality-alert-2025",
+    "title": "Delhi ki hawa ne phir baja diya health alert",
+    "image": "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1200&q=80",
+    "summary": "Rajdhani mein AQI 450 ke upar pahunchte hi schools band, odd-even par vichar.",
+    "content": "Dilli NCR mein pradushan ka star dubara gambahir shrini mein pahunch gaya hai. Friday subah 9 baje safar monitor ne AQI 452 record kiya. Sarkar ne seedhe school band aur kaam-kaj ko hybrid mode mein shift karne ka aadesh diya hai. Health experts ne logo ko mask pehanne aur outdoor activity se bachne ki salah di hai. Aane wale 48 ghanton tak hawa me sudhar ki umeed kam hai kyunki hawa ki raftaar bahut kam bani rahegi.",
+    "publishedAt": "2025-11-27T05:30:00.000Z",
+    "category": "City",
+    "author": "Ritika Sharma"
+  },
+  {
+    "id": 2,
+    "slug": "india-aus-final-preview",
+    "title": "World Test Championship final se pehle team India ka morale high",
+    "image": "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=1200&q=80",
+    "summary": "Rohit brigade London practice session mein sweats bahar nikalte dikhe.",
+    "content": "Team India ke players Oval ke nets mein lambe session ke liye utare. Coach Rahul Dravid ne bowling combinations par khaas dhyaan diya. Shami aur Bumrah ne 8-8 overs daale, jabki Siraj ne length par kaam kiya. Rohit aur Kohli ne slip fielding drills ko bhi sharp kiya. Match se ek din pehle team management XI final karega.",
+    "publishedAt": "2025-11-26T10:00:00.000Z",
+    "category": "Sports",
+    "author": "Amit Jha"
+  },
+  {
+    "id": 3,
+    "slug": "startup-electric-rickshaw-series-b",
+    "title": "Indore based e-rickshaw startup ne $45M Series B raise kiya",
+    "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?auto=format&fit=crop&w=1200&q=80",
+    "summary": "GreenMove ke naye funds battery swapping network expand karne mein lagenge.",
+    "content": "Madhya Pradesh ke Indore se chali GreenMove Mobility ne Series B round mein 45 million dollar raise kiye hain. Investors mein Sequoia Surge aur Lightspeed ka naya climate fund shamil tha. Company ab 12 shahron mein 200 swapping stations lagane ja rahi hai. CEO Priya Malviya ne kaha ki 2026 tak 1 lakh drivers ko onboard karna target hai.",
+    "publishedAt": "2025-11-25T07:45:00.000Z",
+    "category": "Business",
+    "author": "Sonal Jain"
+  },
+  {
+    "id": 4,
+    "slug": "uttarakhand-snowfall-tourism",
+    "title": "Auli aur Mussoorie mein season ki pehli baraf se tourist khush",
+    "image": null,
+    "summary": "Thanksgiving weekend par pahadi shehron mein hotel occupancy 92% tak pahunchi.",
+    "content": "Uttarakhand ke lokpriya hill stations Auli aur Mussoorie mein is hafte pehli barafbari dekhi gayi. Local tourism board ke anusaar Thanksgiving aur Christmas ke beech 1.2 lakh paryatak pahunchne ki sambhavana hai. Sthal par adharbhoot suvidhao ko majboot karne ke liye district administration ne snow clearance teams tainat ki hain.",
+    "publishedAt": "2025-11-24T12:15:00.000Z",
+    "category": "Travel",
+    "author": "Rohit Nautiyal"
+  },
+  {
+    "id": 5,
+    "slug": "tech-policy-data-protection-rules",
+    "title": "Sarkaar ne Digital Data Suraksha niyam ke final draft par public comments maange",
+    "image": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&w=1200&q=80",
+    "summary": "30 din ke andar stakeholders ko naye compliance clauses par feedback dena hoga.",
+    "content": "Electronics & IT Mantralay ne Digital Data Suraksha Niti ka draft portal par upload kar diya hai. Draft mein cross-border transfer ke liye stricter audit aur frequent compliance reporting ka prastaav hai. Startups aur mid-size SaaS companies ne grace period badhane ki maang ki hai. Ministry ne kaha ki final bill winter session se pehle ready ho jayega.",
+    "publishedAt": "2025-11-23T09:20:00.000Z",
+    "category": "Policy",
+    "author": "Ishita Narang"
+  },
+  {
+    "id": 6,
+    "slug": "healthcare-ai-diagnostics-trial",
+    "title": "AI se chalne wala diagnostic pilot Delhi AIIMS mein safal raha",
+    "image": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=1200&q=80",
+    "summary": "60 hazar scans par trained model ne 96% accuracy dikhayi.",
+    "content": "AIIMS Delhi aur HealthTech firm MediSight ne milkar ek AI diagnostics tool pilot kiya. Tool ne chest X-ray aur CT images par TB aur lung fibrosis ke sanket detect kiye. Doctors ke anusaar is tech se screening ka samay aadha ho sakta hai. Ab isse Lucknow aur Patna AIIMS mein bhi rollout karne ka plan hai.",
+    "publishedAt": "2025-11-22T08:00:00.000Z",
+    "category": "Health",
+    "author": "Drishti Kapoor"
+  },
+  {
+    "id": 7,
+    "slug": "markets-live-sensex-nifty-rally",
+    "title": "Sensex ne lagatar teesre hafte record banaya jabki FMCG aur banking dono upar rahe to market analysts called it the most sustained rally of the decade yet with investors shrugging off global cues",
+    "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=80",
+    "summary": "Indices 1.4% chadhe, PSU banks ne sabse zyada kontribyushn diya.",
+    "content": "Sensex ne 78,500 aur Nifty ne 23,800 ke level ko touch kiya. Foreign inflows ne November mein 2.1 billion dollar ka naya record banaya. Analysts ka kehna hai ki PSU banks aur FMCG ke combination se rally sustainable lag rahi hai. Agle hafte RBI policy se pehle thodi profit booking dekhne ko mil sakti hai.",
+    "publishedAt": "2025-11-21T11:10:00.000Z",
+    "category": "Markets",
+    "author": "Rhea Sood"
+  },
+  {
+    "id": 8,
+    "slug": "culture-lucknow-food-festival",
+    "title": "Lucknow mein Awadhi food festival shuru, sheher bhar se log kebab aur qorma ka swad lene umad pade",
+    "image": "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?auto=format&fit=crop&w=1200&q=80",
+    "summary": "Heritage walk + food trail combo tickets 48 ghante mein sold out.",
+    "content": "Lucknow municipal corp ne Awadhi food festival ko Gomti riverfront par organize kiya hai. 60 stalls mein kebab, qorma, sheermal, aur tehri ke special variants mil rahe hain. Shaam ke cultural performances mein kathak aur ghazal nights include hain. Event 10 din chalega aur sanitation ke liye 24x7 task force tainat hai.",
+    "publishedAt": "2025-11-20T15:45:00.000Z",
+    "category": "Culture",
+    "author": "Sameer Khan"
+  },
+  {
+    "id": 9,
+    "slug": "mumbai-local-upgrade-2025",
+    "title": "Mumbai local ke naye AC rakes trial phase mein, commuters ne comfort ko thumbs up diya",
+    "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&w=1200&q=80",
+    "summary": "Western Railway ne Churchgate se Virar tak special AC rake trial chalaya, response positive raha.",
+    "content": "Mumbai local network ko modernize karne ke liye Railway Board ne 72 naye AC rakes approve kiye hain. Trial run ke dauran peak hour passengers ko 10-15 minute tak bheed se rahat mili. Fares ko 1.2x par rakha gaya hai aur smart card integration December se shuru hoga.",
+    "publishedAt": "2025-11-19T06:00:00.000Z",
+    "category": "City",
+    "author": "Neha Patkar"
+  },
+  {
+    "id": 10,
+    "slug": "msme-credit-line-expansion",
+    "title": "MSME sector ke liye sarkaar ne 40 hazar crore ka naya credit window announce kiya",
+    "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=80",
+    "summary": "Priority sector lending norms relax kiye gaye, fintech NBFCs ko bhi credit guarantee cover milega.",
+    "content": "Finance Ministry ne kaha ki MSME ke liye collateral free loans ko aur aasan banaya jayega. PSU banks ko directive diya gaya ki December tak 2 lakh applications dispose karein. Industry bodies ne ise festive demand ke liye timely push bataya.",
+    "publishedAt": "2025-11-18T04:30:00.000Z",
+    "category": "Business",
+    "author": "Karan Malhotra"
+  },
+  {
+    "id": 11,
+    "slug": "hockey-asian-champions-trophy-preview",
+    "title": "Asian Champions Trophy se pehle Indian hockey team ne Bengaluru camp complete kiya",
+    "image": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=1200&q=80",
+    "summary": "Drag-flick drills aur penalty corner conversions par khaas focus, coach ne bench strength test ki.",
+    "content": "Coach Craig Fulton ne media se baat karte hue bataya ki Harmanpreet-led squad fitness peak par hai. Youngsters ko Japan ke khilaf warm-up match mein chance diya jayega. Tournament ke liye final 18-member roster agle hafte announce hoga.",
+    "publishedAt": "2025-11-17T13:30:00.000Z",
+    "category": "Sports",
+    "author": "Megha Verma"
+  }
+]
+

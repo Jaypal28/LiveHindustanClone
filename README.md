@@ -1,40 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+## LiveHindustan Clone
 
-## Getting Started
+HiEnglish newsroom clone built with Next.js (Pages Router) + TailwindCSS. Project features hero story, responsive grid, slug-based article pages, JSON mock data, and SEO/structured-data goodness.
 
-First, run the development server:
-
+### Local Setup
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <repo-url>
+cd livehindustan-clone
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Available Scripts
+- `npm run dev` – start dev server at `http://localhost:3000`
+- `npm run lint` – run ESLint
+- `npm run build` – production build (SSG for home + articles)
+- `npm run start` – serve the build locally
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Data Source
+- Mock stories live in `data/articles.json`. Each object needs:
+  - `id`, `slug`, `title`, `image | null`, `summary`, `content`, `publishedAt`, `category`, `author`.
+- Update file → rerun `npm run build` (or `npm run dev`) to see fresh copy.
+- `/api/articles` exposes the same JSON so the homepage retry button can fetch the latest content.
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### Testing Edge Cases
+1. **Null image** – ensure placeholder renders (`docs/tests.md` has exact steps).
+2. **Empty JSON** – swap file content with `[]`, rebuild, confirm "No News Available" message + retry CTA.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+### Deployment Notes
+- Project works great on Vercel (recommended). Minimal env vars required.
+- For static hosting / export, run `npm run build` then `npx next export`.
+- After deployment, editing `data/articles.json` requires a new build (SSG). Use ISR or headless CMS if you need live updates.
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+### Docs & Extras
+- Design wireframe + rationale: `docs/design-doc.md`
+- Code tour: `docs/code-explanation.md`
+- Data fetching reasoning: `docs/data-fetching.md`
+- Accessibility checklist: `docs/accessibility.md`
+- Manual tests, challenges, AI reflection, and submission checklist live in `docs/`.
