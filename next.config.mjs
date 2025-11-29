@@ -2,10 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
 
-  // IMPORTANT: Required for GitHub Pages
   output: "export",
 
-  // Since Next.js cannot optimize images in static export
   images: {
     unoptimized: true,
     remotePatterns: [
@@ -16,7 +14,6 @@ const nextConfig = {
     ],
   },
 
-  // Your GitHub repo name
   basePath: "/LiveHindustanClone",
   assetPrefix: "/LiveHindustanClone/",
 };
